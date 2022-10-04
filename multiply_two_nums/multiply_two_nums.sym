@@ -1,0 +1,10 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	ASCII_0                 3028
+//	CONTINUE                300E
+//	EXIT                    301E
+//	ITERATE_1               300A
+//	ITERATE_2               300F
+//	OUTPUT_1_DIGITS         301C
+//	STR_OUT                 301F
+//	TAKE                    3013

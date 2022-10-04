@@ -1,0 +1,36 @@
+Input: a,b
+Convert from ASCII char to value
+Save 
+R2 = a
+R3 = b
+
+ITERATE_1{
+while (R2 >= 0){
+	R2 = R2 - 1
+	if R2 < 0: move to CONTINUE
+	R4 = R4 + R3 // R4 is the result
+	}
+}
+
+CONTINUE{
+	R2 = 0
+	R4 = R4 - 10
+	if (R4 > 0){
+	R2 = R2 + 1
+	}else{
+	move to TAKE
+	}
+}
+#After this, R2 is 10th digit
+TAKE{
+	R3 = R4 + 10	\\ then R4 is 0th digit
+	}
+}
+
+If R2 = 0{ \\ result has 1 digit
+	convert R3 to ascii char to output
+	show R3
+}else{
+	convert R2,R3 to ascii char to output
+	show R2,R3
+	}
