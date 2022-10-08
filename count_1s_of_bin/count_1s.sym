@@ -1,0 +1,9 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	ASCII                   3015
+//	COUNT_REMAIN            3014
+//	EXIT                    3046
+//	INPUT_STR               3016
+//	LOOP                    3008
+//	NEXT                    300B
+//	STR_OUT                 3032

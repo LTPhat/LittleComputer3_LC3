@@ -1,0 +1,23 @@
+Input: ex R0 = 50 ---> 00110010
+Create one varible has value 1 ex: R2 = 1 --->
+Create count value, count_remain value
+AND R2 with R0
+
+	R0	00110010
+	R2	00000001
+	res	00000000
+If res = 0; --> Mean last digit of R0 is 0
+
+Then ADD R2 with R2 ---> 00000001 + 00000001 = 00000010
+count_remain value -= 1
+
+AND R2 with R0:
+
+	R0	00110010
+	R2	00000010
+	res	00000010
+If res != 0; --> Mean 7th digit of R0 is 1
+count_remain value -= 1
+count_value += 1
+
+Continue ... until count_remain_value ==0
