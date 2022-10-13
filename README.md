@@ -19,7 +19,7 @@ An assembly language for Computer Systems and Programming Languages Course (EE20
 ![alt text](https://github.com/LTPhat/LittleComputer3_LC3/blob/main/memory_map.png)
 
 ## Instruction set
-Following image shows all the instruction sets in LC3 Assembly Language:
+The image below shows all the instruction sets in LC3 Assembly Language:
 
 ![alt text](https://github.com/LTPhat/LittleComputer3_LC3/blob/main/instruction_set.png)
 ## Quick reference guides
