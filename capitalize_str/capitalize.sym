@@ -1,0 +1,12 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	CAP                     3036
+//	CHECK                   3035
+//	CONVERT                 300F
+//	ENTER                   3034
+//	INPUT_LOOP              3004
+//	INPUT_STR               3017
+//	MEM                     3037
+//	OUTPUT_STR              302B
+//	SAVE                    300C
+//	SHOW                    3012
