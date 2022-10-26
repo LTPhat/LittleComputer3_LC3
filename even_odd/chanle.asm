@@ -1,3 +1,5 @@
+; Given 10 non-negative integer (1 digit) store in register starting from x3070, write a program to 
+; count number of evens and number of odds, show to console.
 .ORIG X3000
 
 	AND R0, R0, #0		;
